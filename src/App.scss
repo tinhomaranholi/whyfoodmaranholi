@@ -1,0 +1,24 @@
+@charset 'utf-8';
+@import "~bulma/sass/utilities/functions";
+@import "./estilos/cores_customizadas.scss";
+
+$cores_customizadas:(
+  "verde_escuro": ($verde_escuro_custom),
+  "verde_luz": ($verde_luz_custom),
+  "cinza": ($cinza_custom),
+  "cinza_escuro": ($cinza_escuro_custom),
+  "preto_custom": ($preto_custom),
+  "laranja_custom": ($laranja_custom),
+);
+
+@import "~bulma/bulma";
+@import "~rbx/rbx";
+
+.dashed_box {
+  font-size: 14px;
+  background: white;
+  font-weight: bold;
+  border: 1px dashed $cinza_custom;
+  padding-left: 20px;
+  padding-right: 20px;
+}

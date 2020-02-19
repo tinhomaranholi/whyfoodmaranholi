@@ -1,0 +1,24 @@
+@import "./cores_customizadas";
+ 
+nav.navbar {
+  height: 70px;
+  border-bottom: 1px solid $cinza_custom;
+  
+  .navbar-brand {  
+    
+    p.food{
+      color: red;
+      font-weight: bolder;
+      font-size: 3rem;
+    }
+    p.why{
+      color: black;
+      font-weight: bolder;
+      font-size: 2rem;
+      padding: 5px;
+    }
+    img {
+      height: 69px;
+    }
+  }
+}
