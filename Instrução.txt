@@ -1,0 +1,11 @@
+Configurações do Ambiente
+NodeJS
+Um requisito importante para rodar ReactJS é ter o NodeJS instalado em sua maquina.
+Para isso acesse e instale: https://nodejs.org/en
+
+Yarn
+É importante você ter um gerenciador de pacotes, recomendo o uso do Yarn (mas é possível usar o npm alterando os comandos de instalação das bibliotecas e de start do servidor).
+https://yarnpkg.com/lang/en/docs/install
+
+	1. Instalar as dependências, sendo elas: router dom (yarn add react-router-dom), axios (yarn add axios), bulma (yarn add bulma) e o rbx, para usarmos o bulma (yarn add rbx) react-icons (yarn add react-icons), react-redux (yarn add redux react-redux); 
+	2. Abra o CMD/Terminal dentro da pasta whyfood e digite "yarn start". Aguarde a aplicação ser inicializada. 
